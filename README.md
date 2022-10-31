@@ -1,4 +1,4 @@
-# UFO_monthly_sightings
+# UFO-monthly-sightings-graph
 ### Monthly UFO sightings since 2005. Each bar represents a single month of sightings.
 
 Made with: *Python Seaborn* & *Matplotlib* Modules.

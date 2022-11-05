@@ -1,4 +1,3 @@
-# UFO-monthly-sightings-graph
 ### Monthly UFO sightings since 2005. Each bar represents a single month of sightings.
 ![alt text](https://github.com/kjanus03/ufo-monthly-sightings/blob/main/ufo_sightings.png)
 
@@ -8,4 +7,4 @@ Additional resources used for scraping: *Python BeautifulSoup4* and *Requests* M
 
 
 ##### [Data source](https://nuforc.org/webreports/ndxevent.html)
-##### [Blog link](https://kjanus03.tumblr.com/post/698849857621917696/ufo-report-index-by-month)
+##### [Blog link](https://kjanus03.tumblr.com/post/700109914352336896/histogram-representing-worldwide-monthly-ufo)

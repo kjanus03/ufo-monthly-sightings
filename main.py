@@ -43,7 +43,7 @@ def scrape_values(url="https://nuforc.org/webreports/ndxevent.html", retries=3):
     return dates, counts
 
 
-def make_plot(data, how_many, size=(14, 6.10), x_fontsize=12, y_fontsize=12, title_fontsize=16, y_tick_fontsize=12, x_tick_fontsze=12):
+def make_plot(data, how_many, size=(21, 9.15), x_fontsize=18, y_fontsize=18, title_fontsize=24, y_tick_fontsize=18, x_tick_fontsze=18):
     """ Creates a seaborn plot with customizable fontsizes and number of x_ticks visible."""
     sns.set(rc={'figure.figsize': size})
     sns.set_style("ticks")
@@ -58,6 +58,7 @@ def make_plot(data, how_many, size=(14, 6.10), x_fontsize=12, y_fontsize=12, tit
     fig.set_xticklabels(xlabels, size=x_tick_fontsze)
     set_x_ticks(figure=fig, how_many=how_many)
     plt.tight_layout()
+    plt.savefig('ufo_sightings.png')
     plt.show()
 
 
